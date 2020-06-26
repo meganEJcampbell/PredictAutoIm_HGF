@@ -17,7 +17,7 @@ fname_groupmat = 'Group_n28_RW_logRT_2.mat';
 %dir_data = ['/Users/mejc110/Documents/MATLAB/SRCpredict_HGFmodelling/extractAll' filesep 'rerun_HGFv5-3_n28'];
 dir_data = ['/Users/mejc110/Documents/MATLAB/SRCpredict_HGFmodelling/extractAll' filesep 'rerun_HGFv5-3_n28_logRT']; %_gaussianRM
 
-fname_base = '_RW_SRC_LogRT';  %_DeltaLogRT'   %_gausRM'
+fname_base = '_DeltaLogRT'; %'_RW_SRC_LogRT';  %_DeltaLogRT'   %_gausRM'
 
 cd(dir_data)
 
