@@ -1,17 +1,12 @@
 %% bayes optimal priors
 %%%%%%%%%%
 %% Very first step - variational bayes to find optimal priors with only the binary task inputs (not responses). Sought advice from Mathys via github: 
-%%Using starting point as per Mathys’ advice, did 1) manually hard coded changes and then copied 2) below code into command window: 
+%%Using starting point as per Mathys’ advice, did 1) manually hard coded changes and then copied 2): 
 %%1) Set omega values in binary_config to: (make copy of tapas_hgf_binary_config.m and append "_MC_SRCstudy")
 %%c.ommu = [NaN, -4, -2]; 
 %%c.omsa = [NaN, 1, 1] ;
+%%%%%%%%%%%%%%%%%%%
 %%2)
-%% bopars = tapas_fitModel([],... % empty no responses here just inputs
-%%                             u,... % binary inputs from task 
-%%                             'tapas_hgf_binary_config_MC_SRCstudy', ... % '%Perceptual Model   
-%%                             'tapas_bayes_optimal_binary_config',...  % Response Model 
-%%                            'tapas_quasinewton_optim_config');  %optimisation algorithm%
-%% 
 %%%%%%%%%%%%%%%%%%%
 
 
