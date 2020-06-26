@@ -8,3 +8,5 @@ This repo includes the paradigm and analysis code for an experiment on automatic
 ## Analysis scripts: summary statistics on reaction time and modelling on log-change-in-reaction time 
   1) MATLAB2018+  2) TAPAS toolbox version, HGF version 5-3 used for RW and HGF  3) SPM12 for smp_bms "bayesian model selection" used in An1_HGF2_model_comparision.m
   
+SRC1_data... .m = data prep: going from raw log files, to raw RT checked for missing trials, and trial orders, to delata-logRT as inputs for HGF/RW.
+with the extractAll_RTdata.zip = directory where these scripts were run with the outputs for summary data scripts (but not raw log files) = .mat and .txt files and .png / .fig for figures
