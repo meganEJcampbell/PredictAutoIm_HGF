@@ -6,5 +6,5 @@ This repo includes the paradigm and analysis code for an experiment on automatic
  1) MATLAB2018+   2) Psychtoolbox 3  http://psychtoolbox.org/     3) GStreamer https://gstreamer.freedesktop.org/data/pkg/osx/1.16.0/
   
 ## Analysis scripts: summary statistics on reaction time and modelling on log-change-in-reaction time 
-  1) MATLAB2018+  2) TAPAS toolbox version, HGF version 5-3 used for RW and HGF
+  1) MATLAB2018+  2) TAPAS toolbox version, HGF version 5-3 used for RW and HGF  3) SPM12 for smp_bms "bayesian model selection" used in An1_HGF2_model_comparision.m
   
