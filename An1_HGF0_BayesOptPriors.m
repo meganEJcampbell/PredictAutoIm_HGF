@@ -7,7 +7,7 @@ path_functions = ('/Users/mejc110/Documents/MATLAB/SRCpredict_HGFmodelling/HGF_v
 addpath(genpath(path_functions))
 
 
-for ss=1%:length(data.ID)
+for ss=1:length(data.ID)
     disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
     disp(['Pp ' num2str(ss) ' ID ' data.ID{ss}])
     disp('_________________')
@@ -25,4 +25,4 @@ for ss=1%:length(data.ID)
     disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 end
 
-%save(['bayesopt_params_n30_' date '.mat'], 'all')
+save(['bayesopt_params_n30_' date '.mat'], 'all')
