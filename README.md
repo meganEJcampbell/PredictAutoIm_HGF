@@ -20,6 +20,7 @@ The reaction times from this trial log structure have been organised as matrices
 2) An1_HGF*.m = HGF modelling
    An1_RW1_setup_modelfit.m = Rescorla-Wagner
    An2_*.m = model comparision and evidence
+   Note: that the script 'tapas_hgf_binary_config_MC_SRCstudy.m' is a modified copy of the config script from TAPAS/HGFv5-3 with the prior mean and variance for the perceptional model resulting from variational Bayes optimisation based on response-free model of experimental inputs.  This script was saved into the HGF directory so as not to modify the original version of the script.
 
 * Output for the analysis run on the data referenced above (see 'data_n28.mat') is in the 'run_HGFv5-3_n28_logRT.zip' subject-wise outputs includes .fig of individual's parameter trajectories across trials.
 
