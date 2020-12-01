@@ -2,6 +2,9 @@
 This repo includes the analysis code for an experiment on automatic imitation behaviour under different conditions of predictability. Analysis focuses on computational modelling of precision weighted learning to provide insight into the behavioural effects (reaction time differences between congruent and incongruent trials), and comparing Rescorla-Wagner (RW) to hierachical perceptual-response models that incorporate beliefs about levels of uncertainty (Hierachical Gaussain Filter). HGF implemented with TAPAS toolbox: see https://github.com/translationalneuromodeling/tapas 
 
 For the experimental paradigm task scripts see: PredictAutoIm_Exptask :-) 
+The dataset of reaction times from a study using the above task with 28 healthy adult participants is available as a matlab file in this repository in the extractAll_RTdata.zip 
+The file 'P_Alln28.mat' contains a structure 'P' with fields 'trial' and 'ID' for each participant. Within 'trial' there is the details of each trial: 'probabilty', 'cond', 'btrial', 'block', 'keyRT' (see the task scripts for definition of these trial variables).
+The reaction times from this trial log structure have been organised as matrices of 'responses' and 'inputs' for entering into the HGF within the file 'data_n28.mat'. 
 
 ## Analysis scripts: perceptual/learning models on log-change-in-reaction time 
 Requires:
